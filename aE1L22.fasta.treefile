@@ -1,0 +1,600 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=498;
+	taxlabels
+	Alpha_0_1_Mfu
+	Alpha_0_2_Mfu
+	Alpha_0_2_Mm
+	Alpha_0_3_Mm
+	Alpha_0_6_Mm
+	Alpha_10_11_H
+	Alpha_10_13_H
+	Alpha_10_1_Pp
+	Alpha_10_44_H
+	Alpha_10_6_H
+	Alpha_10_74_H
+	Alpha_11_177_H
+	Alpha_11_34_H
+	Alpha_11_73_H
+	Alpha_12_10_Mf
+	Alpha_12_11_Mf
+	Alpha_12_1_Mm
+	Alpha_12_1_Ph
+	Alpha_12_3_Mf
+	Alpha_12_4_Mf
+	Alpha_12_5_Mf
+	Alpha_12_6_Mf
+	Alpha_12_7_Mf
+	Alpha_12_8_Mf
+	Alpha_12_9_Mf
+	Alpha_13_54_H
+	Alpha_14_106_H
+	Alpha_14_1_Cg
+	Alpha_14_71_H
+	Alpha_14_90_H
+	Alpha_1_32_H
+	Alpha_1_42_H
+	Alpha_2_10_H
+	Alpha_2_117_H
+	Alpha_2_125_H
+	Alpha_2_160_H
+	Alpha_2_28_H
+	Alpha_2_29_H
+	Alpha_2_3_H
+	Alpha_2_77_H
+	Alpha_2_78_H
+	Alpha_2_94_H
+	Alpha_3_102_H
+	Alpha_3_114_H
+	Alpha_3_61_H
+	Alpha_3_62_H
+	Alpha_3_72_H
+	Alpha_3_81_H
+	Alpha_3_83_H
+	Alpha_3_84_H
+	Alpha_3_86_H
+	Alpha_3_87_H
+	Alpha_3_89_H
+	Alpha_4_27_H
+	Alpha_4_2_H
+	Alpha_4_57_H
+	Alpha_5_26_H
+	Alpha_5_51_H
+	Alpha_5_69_H
+	Alpha_5_82_H
+	Alpha_6_30_H
+	Alpha_6_53_H
+	Alpha_6_56_H
+	Alpha_6_66_H
+	Alpha_7_18_H
+	Alpha_7_39_H
+	Alpha_7_45_H
+	Alpha_7_59_H
+	Alpha_7_68_H
+	Alpha_7_70_H
+	Alpha_7_85_H
+	Alpha_7_97_H
+	Alpha_8_40_H
+	Alpha_8_43_H
+	Alpha_8_7_H
+	Alpha_8_91_H
+	Alpha_9_16_H
+	Alpha_9_31_H
+	Alpha_9_33_H
+	Alpha_9_35_H
+	Alpha_9_52_H
+	Alpha_9_58_H
+	Alpha_9_67_H
+	Beta_0_206_H
+	Beta_0_209_H
+	Beta_0_227_H
+	Beta_1_105_H
+	Beta_1_118_H
+	Beta_1_124_H
+	Beta_1_12_H
+	Beta_1_143_H
+	Beta_1_14_H
+	Beta_1_152_H
+	Beta_1_195_H
+	Beta_1_196_H
+	Beta_1_19_H
+	Beta_1_1_Mf
+	Beta_1_20_H
+	Beta_1_21_H
+	Beta_1_24_H
+	Beta_1_25_H
+	Beta_1_2_Cg
+	Beta_1_36_H
+	Beta_1_47_H
+	Beta_1_5_H
+	Beta_1_8_H
+	Beta_1_93_H
+	Beta_1_98_H
+	Beta_1_99_H
+	Beta_2_100_H
+	Beta_2_104_H
+	Beta_2_107_H
+	Beta_2_110_H
+	Beta_2_111_H
+	Beta_2_113_H
+	Beta_2_120_H
+	Beta_2_122_H
+	Beta_2_145_H
+	Beta_2_151_H
+	Beta_2_159_H
+	Beta_2_15_H
+	Beta_2_174_H
+	Beta_2_17_H
+	Beta_2_182_H
+	Beta_2_22_H
+	Beta_2_23_H
+	Beta_2_37_H
+	Beta_2_38_H
+	Beta_2_80_H
+	Beta_2_9_H
+	Beta_3_115_H
+	Beta_3_49_H
+	Beta_3_75_H
+	Beta_3_76_H
+	Beta_4_92_H
+	Beta_5_150_H
+	Beta_5_185_H
+	Beta_5_96_H
+	Beta_6_2_Mf
+	Chi_0_18_C
+	Chi_0_20_C
+	Chi_1_11_C
+	Chi_1_12_C
+	Chi_1_3_C
+	Chi_1_5_C
+	Chi_1_9_C
+	Chi_2_16_C
+	Chi_2_4_C
+	Chi_3_10_C
+	Chi_3_14_C
+	Chi_3_15_C
+	Chi_3_8_C
+	Delta_0_1_Gc
+	Delta_0_1_Ojoh
+	Delta_0_1_Ral
+	Delta_0_4_Oa
+	Delta_1_1_Aa
+	Delta_1_1_Rt
+	Delta_2_1_Ov
+	Delta_3_1_Oa
+	Delta_3_2_Oa
+	Delta_4_13_B
+	Delta_4_14_B
+	Delta_4_1_B
+	Delta_4_1_Bg
+	Delta_4_2_B
+	Delta_5_1_Cca
+	Delta_6_1_Cd
+	Delta_6_2_Cd
+	Dyochi_1_1_Ea
+	Dyodelta_1_1_Ss
+	Dyoepsilon_1_1_Fl
+	Dyoeta_1_1_Ee
+	Dyoiota_1_2_Ec
+	Dyoiota_2_4_Ec
+	Dyoiota_2_5_Ec
+	Dyokappa_0_16_B
+	Dyokappa_0_18_B
+	Dyokappa_0_22_B
+	Dyokappa_1_3_Oa
+	Dyokappa_2_1_Rr
+	Dyolambda_1_1_Bp
+	Dyomu_1_1_Ms
+	Dyonu_0_3_Am
+	Dyonu_0_3_Lw
+	Dyonu_1_1_Zc
+	Dyoomega_1_2_Es
+	Dyoomikron_0_1_Ag
+	Dyoomikron_1_1_Ssc
+	Dyoomikron_1_2_Ssc
+	Dyoomikron_1_3_Ssc
+	Dyophi_1_1_Te
+	Dyopi_0_8_Tt
+	Dyopi_1_4_Pph
+	Dyopsi_1_1_Es
+	Dyopsi_1_3_Es
+	Dyorho_1_3_Ec
+	Dyorho_1_6_Ec
+	Dyorho_1_7_Ec
+	Dyosigma_1_1_Ccan
+	Dyotau_1_2_Msc
+	Dyotheta_0_4_Lw
+	Dyotheta_1_2_Fca
+	Dyoupsilon_1_1_Eh
+	Dyoxi_1_7_B
+	Dyozeta_1_1_Cc
+	Dyozeta_1_1_Cm
+	Epsilon_0_1_Ce
+	Epsilon_0_25_B
+	Epsilon_1_5_B
+	Epsilon_1_8_B
+	Eta_0_1_Sc
+	Eta_1_1_Fc
+	Gamma_0_157_H
+	Gamma_0_158_H
+	Gamma_0_1_Cpen
+	Gamma_0_203_H
+	Gamma_0_205_H
+	Gamma_0_207_H
+	Gamma_0_208_H
+	Gamma_0_210_H
+	Gamma_0_211_H
+	Gamma_0_212_H
+	Gamma_0_213_H
+	Gamma_0_214_H
+	Gamma_0_215_H
+	Gamma_0_216_H
+	Gamma_0_219_H
+	Gamma_0_220_H
+	Gamma_0_221_H
+	Gamma_0_222_H
+	Gamma_0_223_H
+	Gamma_0_224_H
+	Gamma_0_225_H
+	Gamma_0_226_H
+	Gamma_0_2_Cpen
+	Gamma_0_4_Mm
+	Gamma_0_5_Mm
+	Gamma_0_7_Mm
+	Gamma_10_121_H
+	Gamma_10_130_H
+	Gamma_10_133_H
+	Gamma_10_142_H
+	Gamma_10_180_H
+	Gamma_10_191_H
+	Gamma_11_126_H
+	Gamma_11_136_H
+	Gamma_11_140_H
+	Gamma_11_141_H
+	Gamma_11_154_H
+	Gamma_11_169_H
+	Gamma_11_171_H
+	Gamma_11_181_H
+	Gamma_11_202_H
+	Gamma_12_127_H
+	Gamma_12_132_H
+	Gamma_12_148_H
+	Gamma_12_165_H
+	Gamma_12_199_H
+	Gamma_13_128_H
+	Gamma_13_153_H
+	Gamma_14_131_H
+	Gamma_15_135_H
+	Gamma_15_146_H
+	Gamma_15_179_H
+	Gamma_15_192_H
+	Gamma_16_137_H
+	Gamma_17_144_H
+	Gamma_18_156_H
+	Gamma_19_161_H
+	Gamma_19_162_H
+	Gamma_19_166_H
+	Gamma_1_173_H
+	Gamma_1_4_H
+	Gamma_1_65_H
+	Gamma_1_95_H
+	Gamma_20_163_H
+	Gamma_20_183_H
+	Gamma_20_194_H
+	Gamma_21_167_H
+	Gamma_22_172_H
+	Gamma_23_175_H
+	Gamma_24_178_H
+	Gamma_24_190_H
+	Gamma_24_197_H
+	Gamma_25_184_H
+	Gamma_26_187_H
+	Gamma_27_201_H
+	Gamma_27_228_H
+	Gamma_2_200_H
+	Gamma_2_48_H
+	Gamma_3_188_H
+	Gamma_3_50_H
+	Gamma_4_60_H
+	Gamma_5_88_H
+	Gamma_6_101_H
+	Gamma_6_103_H
+	Gamma_6_108_H
+	Gamma_7_109_H
+	Gamma_7_123_H
+	Gamma_7_134_H
+	Gamma_7_138_H
+	Gamma_7_139_H
+	Gamma_7_149_H
+	Gamma_7_155_H
+	Gamma_7_170_H
+	Gamma_7_186_H
+	Gamma_7_189_H
+	Gamma_7_193_H
+	Gamma_7_229_H
+	Gamma_8_112_H
+	Gamma_8_119_H
+	Gamma_8_147_H
+	Gamma_8_164_H
+	Gamma_8_168_H
+	Gamma_8_176_H
+	Gamma_9_116_H
+	Gamma_9_129_H
+	Iota_0_1_Pm
+	Iota_1_1_Mn
+	Iota_1_2_Rn
+	Iota_1_3_Rn
+	Kappa_1_1_Oc
+	Kappa_2_1_Sf
+	Lambda_0_1_Lwie
+	Lambda_0_4_Am
+	Lambda_1_1_Fca
+	Lambda_1_1_Lr
+	Lambda_1_1_Pc
+	Lambda_1_1_Plp
+	Lambda_1_1_Uu
+	Lambda_2_1_C
+	Lambda_3_6_C
+	Lambda_4_1_El
+	Lambda_4_1_Pl
+	Lambda_5_1_Ccr
+	Mu_1_1_H
+	Mu_2_63_H
+	Mu_3_204_H
+	NA_0_10_Ec
+	NA_0_19_B
+	NA_0_1_Aalb
+	NA_0_1_Apla
+	NA_0_1_Bcos
+	NA_0_1_Cstr
+	NA_0_1_Dleu
+	NA_0_1_Ebon
+	NA_0_1_Erug
+	NA_0_1_Farc
+	NA_0_1_Hfre
+	NA_0_1_Lsmi
+	NA_0_1_Lw
+	NA_0_1_Maeg
+	NA_0_1_Mfoi
+	NA_0_1_Mjav
+	NA_0_1_Mr
+	NA_0_1_Msc
+	NA_0_1_Nasi
+	NA_0_1_Omyk
+	NA_0_1_Ppu
+	NA_0_1_Ptro
+	NA_0_1_Rmar
+	NA_0_1_Rti
+	NA_0_1_Rtri
+	NA_0_1_Sa
+	NA_0_1_Sgla
+	NA_0_1_Tbel
+	NA_0_1_Tber
+	NA_0_1_Tbra
+	NA_0_1_Tper
+	NA_0_1_Vvar
+	NA_0_21_B
+	NA_0_24_C
+	NA_0_27_B
+	NA_0_2_Apla
+	NA_0_2_Cstr
+	NA_0_2_Ebon
+	NA_0_2_Ed
+	NA_0_2_Hfre
+	NA_0_2_Lw
+	NA_0_2_Maeg
+	NA_0_2_Mjav
+	NA_0_2_Mmol
+	NA_0_2_Nasi
+	NA_0_2_Rti
+	NA_0_2_Ss
+	NA_0_2_Tbel
+	NA_0_2_Tbra
+	NA_0_2_Vvar
+	NA_0_30_B
+	NA_0_31_B
+	NA_0_32_B
+	NA_0_33_B
+	NA_0_34_B
+	NA_0_35_B
+	NA_0_36_B
+	NA_0_37_B
+	NA_0_38_B
+	NA_0_39_B
+	NA_0_3_Cd
+	NA_0_3_Cstr
+	NA_0_3_Ea
+	NA_0_3_Maeg
+	NA_0_3_Mjav
+	NA_0_3_Nasi
+	NA_0_3_Tbra
+	NA_0_40_B
+	NA_0_41_B
+	NA_0_42_B
+	NA_0_43_B
+	NA_0_44_B
+	NA_0_4_Eh
+	NA_0_4_Maeg
+	NA_0_4_Nasi
+	NA_0_5_Am
+	NA_0_5_Maeg
+	NA_0_5_Nasi
+	NA_0_5_Tm
+	NA_0_6_Fca
+	NA_0_6_Maeg
+	NA_0_6_Nasi
+	NA_0_7_Fca
+	NA_0_8_Ec
+	NA_0_9_Ec
+	Nu_1_41_H
+	Omega_0_1_Am
+	Omega_0_2_Am
+	Omega_0_6_Lw
+	Omega_0_7_Lw
+	Omega_1_1_Um
+	Omikron_0_9_Tt
+	Omikron_1_1_Pph
+	Omikron_1_1_Ps
+	Omikron_1_5_Tt
+	Omikron_1_6_Tt
+	Phi_1_1_Ch
+	Phi_1_2_Ch
+	Pi_0_1_Ache
+	Pi_1_1_Psu
+	Pi_2_1_As
+	Pi_2_1_Ma
+	Pi_2_1_Mmi
+	Pi_2_1_Mmu
+	Pi_2_1_Rn
+	Pi_2_2_Mc
+	Psi_0_2_Eh
+	Psi_0_3_Eh
+	Psi_1_1_Ra
+	Rho_1_1_Tm
+	Rho_1_2_Tm
+	Rho_2_3_Tm
+	Rho_2_4_Tm
+	Sigma_1_1_Ed
+	Tau_0_17_C
+	Tau_0_19_C
+	Tau_0_1_Mp
+	Tau_0_21_C
+	Tau_0_22_C
+	Tau_0_23_C
+	Tau_0_5_Fca
+	Tau_0_5_Lw
+	Tau_1_2_C
+	Tau_1_7_C
+	Tau_2_13_C
+	Tau_3_3_Fca
+	Tau_3_4_Fca
+	Theta_1_1_Pe
+	Treisdelta_1_1_Rf
+	Treisepsilon_0_2_Pa
+	Treisepsilon_1_1_Pa
+	Treiseta_0_1_Vv
+	Treiszeta_0_1_Fg
+	Upsilon_1_1_Dd
+	Upsilon_1_1_Tt
+	Upsilon_1_3_Tt
+	Upsilon_1_4_Tt
+	Upsilon_1_7_Tt
+	Upsilon_2_2_Tt
+	Upsilon_3_2_Pph
+	Xi_0_17_B
+	Xi_0_20_B
+	Xi_0_23_B
+	Xi_0_24_B
+	Xi_0_26_B
+	Xi_0_28_B
+	Xi_0_29_B
+	Xi_0_2_Ce
+	Xi_1_10_B
+	Xi_1_11_B
+	Xi_1_15_B
+	Xi_1_3_B
+	Xi_1_4_B
+	Xi_1_6_B
+	Xi_1_9_B
+	Xi_2_12_B
+	Xi_3_2_Rt
+	Zeta_0_2_Ea
+	Zeta_1_1_Ec
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Alpha_5_69_H:0.113467,Alpha_5_26_H:0.122669,((Alpha_5_82_H:0.123733,Alpha_5_51_H:0.102155):0.129027,(((Alpha_6_66_H:0.088173,Alpha_6_56_H:0.077342):0.094591,(Alpha_6_30_H:0.12284,Alpha_6_53_H:0.090724):0.08017):0.186761,(((Alpha_7_85_H:0.18894,((Alpha_7_97_H:0.092418,Alpha_7_18_H:0.142154):0.028474,Alpha_7_45_H:0.130914):0.126056):0.032234,(Alpha_7_59_H:0.231114,((Alpha_7_68_H:0.111547,Alpha_7_39_H:0.120822):0.043303,Alpha_7_70_H:0.135441):0.149204):0.027686):0.124153,(((((Alpha_9_31_H:0.222078,Alpha_9_35_H:0.204735):0.04168,Alpha_9_16_H:0.209782):0.105074,((Alpha_9_67_H:0.200071,Alpha_9_52_H:0.213552):0.035399,(Alpha_9_58_H:0.114073,Alpha_9_33_H:0.102693):0.107526):0.160046):0.074114,((Alpha_11_177_H:0.116166,NA_0_1_Ptro:0.123296):0.16845,(Alpha_11_34_H:0.113795,Alpha_11_73_H:0.099717):0.228648):0.085023):0.068388,(((((Alpha_12_7_Mf:0.217704,(Alpha_12_8_Mf:0.13845,Alpha_12_11_Mf:0.170422):0.106491):0.089396,((((Alpha_12_3_Mf:0.134952,Alpha_12_1_Ph:0.10842):0.115291,(Alpha_12_10_Mf:0.14349,Alpha_12_1_Mm:0.171206):0.040318):0.034102,(Alpha_12_4_Mf:0.178055,((Alpha_12_5_Mf:0.076744,Alpha_12_9_Mf:0.094923):0.049949,Alpha_0_1_Mfu:0.135172):0.0365):0.050619):0.046691,Alpha_12_6_Mf:0.22592):0.082043):0.145052,(Alpha_0_2_Mm:0.222098,Alpha_0_6_Mm:0.222937):0.252704):0.095373,(((((Alpha_14_71_H:0.190645,(Alpha_14_90_H:0.113495,Alpha_14_106_H:0.108539):0.123128):0.108524,(((Alpha_4_2_H:0.069723,Alpha_4_27_H:0.05977):0.05364,Alpha_4_57_H:0.119102):0.275897,((((Alpha_3_83_H:0.133493,Alpha_3_102_H:0.123753):0.128689,Alpha_3_89_H:0.200497):0.051499,((Alpha_3_84_H:0.110882,Alpha_3_114_H:0.116373):0.019461,(Alpha_3_86_H:0.09462,Alpha_3_87_H:0.090891):0.051091):0.16807):0.023206,((Alpha_3_81_H:0.148942,Alpha_3_62_H:0.139709):0.11858,(Alpha_3_61_H:0.163677,Alpha_3_72_H:0.15408):0.093372):0.0578):0.146397):0.041439):0.054908,((Alpha_2_160_H:0.178283,((((Alpha_2_94_H:0.083236,Alpha_2_10_H:0.064105):0.015835,Alpha_2_117_H:0.073655):0.076185,((Alpha_2_125_H:0.093046,Alpha_2_3_H:0.076149):0.037591,Alpha_2_28_H:0.104641):0.043238):0.027094,Alpha_2_78_H:0.146224):0.055559):0.027026,(Alpha_2_29_H:0.095722,Alpha_2_77_H:0.099341):0.067977):0.230241):0.060765,(Alpha_14_1_Cg:0.313595,(Alpha_0_3_Mm:0.229374,Alpha_0_2_Mfu:0.224366):0.095651):0.124241):0.129941,(((Dyoomikron_1_2_Ssc:0.187281,(Dyoomikron_1_3_Ssc:0.120071,Dyoomikron_1_1_Ssc:0.122153):0.092385):0.263241,Dyoomikron_0_1_Ag:0.386216):0.213635,((((((((Upsilon_1_3_Tt:0.145677,((Upsilon_1_1_Dd:0.153872,(Upsilon_1_4_Tt:0.084151,Upsilon_1_7_Tt:0.084757):0.048915):0.035752,(NA_0_5_Nasi:0.151943,NA_0_6_Nasi:0.152264):0.048017):0.026957):0.087456,Upsilon_1_1_Tt:0.189354):0.101376,Upsilon_2_2_Tt:0.676691):0.088469,Upsilon_3_2_Pph:0.565011):0.106661,((((Omikron_1_5_Tt:0.229502,Omikron_1_6_Tt:0.237815):0.066797,Omikron_0_9_Tt:0.344447):0.035671,(Omikron_1_1_Ps:0.209764,NA_0_2_Nasi:0.288213):0.096182):0.048033,(NA_0_4_Nasi:0.422981,(Omikron_1_1_Pph:0.226979,NA_0_3_Nasi:0.220601):0.153469):0.058254):0.188874):0.34463,(((Dyopi_1_4_Pph:0.09455,NA_0_1_Nasi:0.122239):0.109243,Dyopi_0_8_Tt:0.310997):0.449693,(Dyodelta_1_1_Ss:0.545943,NA_0_1_Dleu:0.584967):0.227674):0.066571):0.07198,(NA_0_1_Mr:0.753484,((Omega_0_1_Am:0.399654,(Omega_0_2_Am:0.248753,Omega_1_1_Um:0.229924):0.252899):0.092668,(Omega_0_6_Lw:0.06882,Omega_0_7_Lw:0.067912):0.502682):0.155022):0.149699):0.051754,((((((((((((((((((((Xi_1_9_B:0.215735,(((Xi_1_15_B:0.094744,(NA_0_37_B:0.05821,NA_0_39_B:0.062038):0.051997):0.027801,NA_0_36_B:0.10066):0.142211,NA_0_38_B:0.187702):0.030248):0.030475,((Xi_1_11_B:0.159225,Xi_0_26_B:0.172931):0.042211,(Xi_0_24_B:0.150001,Xi_1_4_B:0.149976):0.064009):0.061686):0.023735,NA_0_43_B:0.208515):0.016723,(NA_0_35_B:0.146906,NA_0_40_B:0.135611):0.097019):0.050374,(((Xi_1_6_B:0.179896,Xi_0_29_B:0.149845):0.035649,NA_0_31_B:0.191087):0.053804,(Xi_0_23_B:0.176819,Xi_1_3_B:0.17916):0.043828):0.04799):0.064004,Xi_0_28_B:0.2172):0.037063,Xi_1_10_B:0.208587):0.058004,Phi_1_2_Ch:0.233427):0.125431,(Xi_0_20_B:0.230128,Xi_3_2_Rt:0.193652):0.206283):0.039764,(((Xi_2_12_B:0.160125,NA_0_42_B:0.144963):0.097263,NA_0_30_B:0.189501):0.143098,NA_0_41_B:0.313189):0.146905):0.067812,Xi_0_2_Ce:0.415514):0.07362,Xi_0_17_B:0.559206):0.152808,(NA_0_1_Rti:0.405362,Phi_1_1_Ch:0.570213):0.285669):0.171158,((((((((((((((((((Gamma_11_126_H:0.215529,(Gamma_11_169_H:0.062146,Gamma_11_171_H:0.057182):0.18595):0.088157,Gamma_11_181_H:0.305729):0.103288,(Gamma_11_136_H:0.218477,Gamma_11_141_H:0.235196):0.144381):0.032492,((Gamma_11_140_H:0.149689,Gamma_11_202_H:0.131433):0.198918,Gamma_11_154_H:0.34566):0.057664):0.083392,(Gamma_9_116_H:0.346492,((Gamma_9_129_H:0.15616,Gamma_0_216_H:0.15855):0.069084,Gamma_0_215_H:0.263229):0.141652):0.12929):0.085456,Gamma_16_137_H:0.47896):0.07183,(((Gamma_13_128_H:0.26686,Gamma_13_153_H:0.250953):0.080196,(Gamma_0_213_H:0.065437,Gamma_0_219_H:0.076543):0.323915):0.169647,((Gamma_15_179_H:0.228026,Gamma_15_135_H:0.212932):0.09486,(Gamma_15_146_H:0.268256,(Gamma_15_192_H:0.187746,Gamma_0_207_H:0.172474):0.14377):0.048009):0.176222):0.114869):0.021263,((Gamma_25_184_H:0.367999,Gamma_4_60_H:0.378301):0.08289,((Gamma_18_156_H:0.324658,(Gamma_22_172_H:0.288638,Gamma_0_223_H:0.28704):0.181652):0.093382,Gamma_23_175_H:0.47564):0.124866):0.103671):0.027977,((Gamma_14_131_H:0.275341,((Gamma_2_200_H:0.179827,Gamma_2_48_H:0.174233):0.218973,(Gamma_3_188_H:0.10033,Gamma_3_50_H:0.116735):0.267154):0.042107):0.146893,((Gamma_12_132_H:0.104878,Gamma_0_210_H:0.108988):0.255817,(((Gamma_12_148_H:0.177822,Gamma_0_157_H:0.21602):0.15235,Gamma_12_165_H:0.307364):0.099596,(Gamma_12_127_H:0.24375,Gamma_12_199_H:0.253482):0.117338):0.034353):0.067821):0.171884):0.024165,((Gamma_5_88_H:0.464182,((((((Gamma_8_112_H:0.196332,Gamma_8_164_H:0.170235):0.071547,Gamma_8_168_H:0.222914):0.046888,(Gamma_8_147_H:0.236155,Gamma_8_176_H:0.263217):0.051477):0.038764,Gamma_8_119_H:0.23095):0.122838,Gamma_0_224_H:0.330696):0.075279,(Gamma_26_187_H:0.332032,Gamma_0_211_H:0.26232):0.12222):0.151901):0.07804,(((((Gamma_19_166_H:0.161639,Gamma_19_162_H:0.159385):0.112478,Gamma_19_161_H:0.253848):0.059263,Gamma_0_222_H:0.267166):0.156052,Gamma_0_7_Mm:0.404789):0.045324,Gamma_21_167_H:0.45443):0.041355):0.049906):0.038891,(((Gamma_17_144_H:0.116085,Gamma_0_212_H:0.108121):0.266706,Gamma_0_220_H:0.404168):0.173022,((Gamma_24_178_H:0.270228,(Gamma_24_197_H:0.225363,Gamma_24_190_H:0.199348):0.08896):0.045213,Gamma_0_208_H:0.250038):0.245181):0.035772):0.019764,(((((Gamma_1_95_H:0.158342,(Gamma_1_4_H:0.119378,Gamma_1_65_H:0.113994):0.070464):0.133281,Gamma_0_158_H:0.302471):0.044255,(Gamma_1_173_H:0.090013,Gamma_0_205_H:0.101302):0.262629):0.05997,((Gamma_20_163_H:0.105923,Gamma_20_194_H:0.087573):0.059613,Gamma_20_183_H:0.142182):0.242133):0.087788,(Gamma_27_201_H:0.190251,Gamma_27_228_H:0.173299):0.331987):0.068348):0.049489,(((Gamma_10_121_H:0.128645,Gamma_10_180_H:0.091736):0.093874,((Gamma_10_130_H:0.187696,Gamma_10_133_H:0.135202):0.081223,((Gamma_10_142_H:0.127749,Gamma_0_221_H:0.138807):0.040393,Gamma_10_191_H:0.120561):0.111504):0.038189):0.219092,(Gamma_0_1_Cpen:0.165192,Gamma_0_2_Cpen:0.253894):0.415634):0.031253):0.083755,(((Gamma_7_109_H:0.240371,((((Gamma_7_149_H:0.166091,Gamma_7_189_H:0.152504):0.038942,(Gamma_7_155_H:0.14717,Gamma_7_193_H:0.139586):0.039634):0.057454,(Gamma_7_138_H:0.164028,Gamma_7_139_H:0.154288):0.086582):0.034302,(((Gamma_7_123_H:0.159955,Gamma_0_225_H:0.135892):0.034844,Gamma_7_186_H:0.146657):0.073461,Gamma_7_170_H:0.221763):0.041831):0.024348):0.101806,((Gamma_7_134_H:0.073882,Gamma_7_229_H:0.069652):0.220392,Gamma_0_5_Mm:0.305503):0.112801):0.107874,Gamma_0_203_H:0.388043):0.10121):0.046033,((((Gamma_6_103_H:0.196145,Gamma_6_108_H:0.210596):0.110788,Gamma_0_214_H:0.295545):0.044325,(Gamma_6_101_H:0.189633,Gamma_0_226_H:0.189664):0.134187):0.316494,Gamma_0_4_Mm:0.542261):0.117443):0.059227,(Treiseta_0_1_Vv:0.611294,NA_0_2_Lw:0.579778):0.079223):0.085063,((NA_0_19_B:0.319553,NA_0_21_B:0.297404):0.481297,((((Pi_2_1_Ma:0.212237,Pi_1_1_Psu:0.212674):0.208472,((Pi_2_1_Rn:0.275742,Pi_2_1_Mmi:0.36313):0.041486,((Pi_2_1_As:0.254084,Pi_0_1_Ache:0.204461):0.075663,(Pi_2_2_Mc:0.247611,Pi_2_1_Mmu:0.35275):0.090154):0.042616):0.138721):0.335064,NA_0_2_Ed:0.744964):0.068135,(NA_0_27_B:0.55274,(NA_0_32_B:0.438342,Dyoxi_1_7_B:0.493585):0.135513):0.35839):0.035028):0.037862):0.038432,((((((Tau_1_7_C:0.168407,Tau_0_19_C:0.166956):0.189582,(Tau_0_17_C:0.188812,Tau_1_2_C:0.254017):0.106951):0.205979,(((Tau_2_13_C:0.285218,Tau_0_23_C:0.253262):0.124687,Tau_0_22_C:0.359703):0.092974,Tau_0_21_C:0.390753):0.174542):0.151249,(Tau_0_5_Lw:0.596591,Tau_0_1_Mp:0.525647):0.070048):0.086125,((Tau_0_5_Fca:0.547779,Tau_3_4_Fca:0.323654):0.125709,(NA_0_6_Fca:0.390515,Tau_3_3_Fca:0.334551):0.170141):0.161064):0.177068,(NA_0_1_Vvar:0.477975,NA_0_2_Vvar:0.624836):0.145308):0.087151):0.093526):0.0287,Dyolambda_1_1_Bp:0.873952):0.02793,(Dyoeta_1_1_Ee:0.642831,(((((Beta_4_92_H:0.299602,((Beta_5_96_H:0.108658,Beta_5_185_H:0.107592):0.057677,Beta_5_150_H:0.133578):0.121669):0.083782,(Beta_3_115_H:0.259681,(Beta_3_49_H:0.133583,(Beta_3_75_H:0.053407,Beta_3_76_H:0.044816):0.103416):0.118873):0.110667):0.041151,((((Beta_2_107_H:0.064572,Beta_0_209_H:0.067219):0.147791,Beta_2_104_H:0.148312):0.101859,((Beta_2_100_H:0.170499,((Beta_2_151_H:0.087824,Beta_2_22_H:0.072148):0.10326,(Beta_2_120_H:0.084387,Beta_2_23_H:0.103261):0.07874):0.059044):0.076575,Beta_2_38_H:0.219877):0.107993):0.025785,(((Beta_2_110_H:0.164369,(((Beta_2_182_H:0.075605,Beta_2_80_H:0.069655):0.022224,Beta_2_15_H:0.074358):0.073063,((Beta_0_227_H:0.070663,Beta_2_37_H:0.069856):0.068581,Beta_2_17_H:0.130118):0.028155):0.05692):0.042637,((((Beta_2_111_H:0.11794,Beta_2_113_H:0.110462):0.034011,Beta_2_122_H:0.126144):0.041928,Beta_2_9_H:0.169462):0.031933,Beta_2_159_H:0.173396):0.078266):0.049554,(Beta_2_174_H:0.154943,Beta_2_145_H:0.161982):0.107521):0.056214):0.101386):0.026438,((Beta_1_93_H:0.139241,(Beta_1_98_H:0.15827,Beta_1_24_H:0.124094):0.077458):0.125466,(Beta_1_1_Mf:0.30494,(((((Beta_1_99_H:0.118916,Beta_1_8_H:0.111546):0.055966,(Beta_1_105_H:0.142143,(Beta_0_206_H:0.095735,Beta_1_12_H:0.10957):0.050376):0.02512):0.038747,(((Beta_1_143_H:0.106448,Beta_1_36_H:0.076545):0.034379,Beta_1_5_H:0.123374):0.03195,Beta_1_47_H:0.153341):0.031552):0.066002,(((Beta_1_20_H:0.099879,(Beta_1_21_H:0.09947,Beta_1_14_H:0.089219):0.035705):0.070008,(Beta_1_19_H:0.135873,Beta_1_25_H:0.113318):0.049879):0.066916,Beta_1_2_Cg:0.353116):0.035006):0.072558,((Beta_1_118_H:0.104939,Beta_1_195_H:0.099489):0.093456,((Beta_1_124_H:0.082618,Beta_1_152_H:0.071104):0.031334,Beta_1_196_H:0.081562):0.094839):0.119633):0.034006):0.040627):0.109469):0.080912,Beta_6_2_Mf:0.481683):0.176629):0.110756):0.066274,((((((((((((((Lambda_1_1_Lr:0.144799,Lambda_1_1_Pc:0.140466):0.0437,Lambda_1_1_Fca:0.194524):0.046358,(Lambda_1_1_Plp:0.087724,Lambda_1_1_Uu:0.104677):0.055406):0.145867,Lambda_0_1_Lwie:0.431896):0.063299,Lambda_5_1_Ccr:0.401785):0.04908,Lambda_3_6_C:0.243939):0.059896,Lambda_2_1_C:0.432718):0.038376,((Lambda_0_4_Am:0.293429,NA_0_5_Am:0.336905):0.075886,(Lambda_4_1_Pl:0.339868,Lambda_4_1_El:0.31533):0.109256):0.053946):0.065272,NA_0_1_Lw:0.661468):0.127498,Dyophi_1_1_Te:0.648178):0.113791,(((Mu_3_204_H:0.416583,(Mu_1_1_H:0.403133,Mu_2_63_H:0.343567):0.105777):0.130446,Dyosigma_1_1_Ccan:0.578578):0.079579,(((NA_0_1_Mjav:0.001921,NA_0_3_Mjav:0.007022):0.304889,NA_0_2_Mjav:0.231966):0.320793,NA_0_1_Tbel:0.671326):0.180622):0.058418):0.05198,(Kappa_2_1_Sf:0.515308,Kappa_1_1_Oc:0.365823):0.388165):0.059747,((((((NA_0_2_Mmol:0.270253,NA_0_2_Ebon:0.336018):0.541415,((NA_0_1_Tbra:0.110966,NA_0_3_Tbra:0.122362):0.604809,((Sigma_1_1_Ed:1.118619,(NA_0_1_Ebon:0.399885,Nu_1_41_H:0.496434):0.22889):0.102999,NA_0_2_Tbra:0.765887):0.075609):0.110775):0.054393,(Treisdelta_1_1_Rf:0.54914,((Dyopsi_1_1_Es:0.169093,Dyopsi_1_3_Es:0.156964):0.50033,NA_0_1_Erug:0.462171):0.125098):0.252779):0.052325,NA_0_1_Tper:0.983501):0.035283,(Dyotau_1_2_Msc:0.940839,(Dyoupsilon_1_1_Eh:0.305175,NA_0_4_Eh:0.36235):0.496833):0.06127):0.050583,NA_0_1_Aalb:0.767807):0.03193):0.052964,((NA_0_1_Ppu:0.522552,(((Dyokappa_0_22_B:0.481951,(Dyokappa_1_3_Oa:0.260139,Dyokappa_2_1_Rr:0.258382):0.528082):0.06611,Dyokappa_0_16_B:0.51625):0.092196,Dyokappa_0_18_B:0.848354):0.064706):0.19573,NA_0_2_Ss:0.664401):0.082891):0.030306):0.063756,((NA_0_1_Bcos:0.411574,Dyomu_1_1_Ms:0.391275):0.478853,(((NA_0_3_Ea:0.532769,Dyochi_1_1_Ea:0.433737):0.439782,(((((((((Delta_1_1_Rt:0.213407,Delta_1_1_Aa:0.219989):0.120052,Delta_2_1_Ov:0.266428):0.091551,(Delta_0_1_Ral:0.252919,Delta_5_1_Cca:0.222184):0.116874):0.16224,((Delta_0_4_Oa:0.038285,Delta_3_1_Oa:0.044807):0.048311,Delta_3_2_Oa:0.071489):0.313996):0.110857,((((Delta_4_13_B:0.060948,Delta_4_2_B:0.07988):0.048877,Delta_4_1_B:0.099446):0.068543,Delta_4_1_Bg:0.129144):0.258103,Delta_4_14_B:0.249596):0.25398):0.085423,(Delta_0_1_Gc:0.574268,Delta_0_1_Ojoh:0.30561):0.287615):0.114679,((NA_0_3_Cd:0.332004,Delta_6_2_Cd:0.46081):0.082433,Delta_6_1_Cd:0.432922):0.317822):0.068014,(((((Epsilon_1_8_B:0.149428,Epsilon_0_25_B:0.146112):0.098309,NA_0_44_B:0.239273):0.045783,Epsilon_1_5_B:0.230154):0.195036,Epsilon_0_1_Ce:0.47103):0.209447,NA_0_33_B:0.618199):0.126041):0.217967,(NA_0_2_Rti:0.476435,NA_0_34_B:0.560422):0.372719):0.151081):0.082399,((((Dyozeta_1_1_Cm:0.306393,Dyozeta_1_1_Cc:0.312293):0.829191,(NA_0_2_Apla:0.485846,Treiszeta_0_1_Fg:0.504077):0.463716):0.103871,(((((Treisepsilon_0_2_Pa:0.528354,Treisepsilon_1_1_Pa:0.415851):0.171901,((NA_0_1_Farc:0.218368,NA_0_1_Lsmi:0.254941):0.103083,NA_0_1_Rtri:0.239857):0.19943):0.072596,NA_0_1_Apla:0.548088):0.072235,(Theta_1_1_Pe:0.70529,Dyoepsilon_1_1_Fl:0.575717):0.112261):0.183622,(Eta_0_1_Sc:0.705267,Eta_1_1_Fc:0.604828):0.2145):0.386788):0.09966,((NA_0_1_Hfre:0.065614,NA_0_2_Hfre:0.069507):1.231335,(NA_0_1_Rmar:1.490719,((((NA_0_1_Sa:0.423042,NA_0_1_Cstr:0.484959):0.190339,NA_0_1_Tber:0.612619):0.30495,(NA_0_4_Maeg:1.058109,(((NA_0_1_Omyk:0.701955,(NA_0_1_Maeg:0.504602,NA_0_6_Maeg:0.362754):0.097964):0.08732,NA_0_2_Maeg:0.520071):0.27341,(NA_0_2_Cstr:0.898825,NA_0_1_Sgla:0.994765):0.154689):0.158098):0.078463):0.533515,((NA_0_3_Maeg:0.263116,NA_0_5_Maeg:0.20132):0.582204,NA_0_3_Cstr:0.805381):0.75696):0.592865):0.361397):0.117596):0.236241):0.049659):0.034285):0.047711,(((Rho_2_3_Tm:0.278451,NA_0_5_Tm:0.249692):0.138994,Rho_2_4_Tm:0.409656):0.336973,(Rho_1_1_Tm:0.593803,Rho_1_2_Tm:0.584046):0.1801):0.204459):0.049641,((((Dyotheta_1_2_Fca:0.260304,NA_0_7_Fca:0.244581):0.527322,Dyotheta_0_4_Lw:0.543485):0.145656,((((((Zeta_0_2_Ea:0.198081,Zeta_1_1_Ec:0.185343):0.504408,(((NA_0_9_Ec:0.407914,Dyoiota_1_2_Ec:0.375228):0.126435,NA_0_10_Ec:0.418916):0.118092,(Dyoiota_2_5_Ec:0.459486,Dyoiota_2_4_Ec:0.478406):0.247373):0.125877):0.093638,((Dyorho_1_3_Ec:0.264452,Dyorho_1_7_Ec:0.21488):0.055594,Dyorho_1_6_Ec:0.214783):0.679428):0.098011,NA_0_8_Ec:0.82835):0.056651,((((((Chi_1_5_C:0.186995,((Chi_1_11_C:0.193881,Chi_0_20_C:0.17394):0.053912,(Chi_0_18_C:0.12229,Chi_1_3_C:0.138977):0.157031):0.030208):0.064261,(Chi_1_12_C:0.13615,Chi_1_9_C:0.14649):0.16435):0.066384,Chi_2_16_C:0.285582):0.063172,(Chi_2_4_C:0.17384,NA_0_24_C:0.200064):0.142371):0.201218,((Chi_3_15_C:0.266985,Chi_3_10_C:0.290247):0.049798,(Chi_3_8_C:0.187499,Chi_3_14_C:0.205316):0.097362):0.267483):0.106789,(((Dyonu_0_3_Am:0.314793,Dyonu_1_1_Zc:0.420759):0.069482,NA_0_1_Mfoi:0.393243):0.121737,Dyonu_0_3_Lw:0.662462):0.070587):0.160724):0.041353,(NA_0_1_Msc:0.630518,Dyoomega_1_2_Es:0.502474):0.439613):0.0321):0.035348,(((((Iota_1_2_Rn:0.17516,Iota_1_3_Rn:0.138197):0.234835,Iota_1_1_Mn:0.627229):0.058644,Iota_0_1_Pm:0.423161):0.265427,NA_0_2_Tbel:0.655215):0.199753,((Psi_0_3_Eh:0.413391,Psi_1_1_Ra:0.528552):0.194311,Psi_0_2_Eh:0.514444):0.317719):0.058707):0.064305):0.158226):0.178046):0.121059):0.033288):0.16827,(((((Alpha_8_91_H:0.105591,Alpha_8_43_H:0.102274):0.152704,(Alpha_8_7_H:0.108278,Alpha_8_40_H:0.118673):0.156952):0.174533,(((Alpha_10_74_H:0.096451,Alpha_10_44_H:0.097438):0.045992,(Alpha_10_13_H:0.079038,Alpha_10_1_Pp:0.116623):0.047409):0.075349,(Alpha_10_11_H:0.115801,Alpha_10_6_H:0.10963):0.106815):0.196155):0.075727,(Alpha_1_42_H:0.138099,Alpha_1_32_H:0.152102):0.236407):0.075666,Alpha_13_54_H:0.411239):0.042601):0.083316):0.103624):0.085105):0.125934):0.143657);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=561;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
